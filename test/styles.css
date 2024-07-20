@@ -2,18 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
 }
 .card-container {
     width: 800px; 
     height: 500px;
+    margin: auto;
     display: flex;
     background-color:#70dad5;
     flex-direction: column;
+    box-shadow: 10px rgb(168, 11, 11);
     
 }
 .header{
-    border: 1px solid #ffffff;
+    border: 1px solid #8ecf97;
     background-color: #2b3592;
     color: #2b928d;
     width: 800px;
@@ -27,6 +30,9 @@
     height: 300px;
     width: 800px;
     display: flex; 
+}
+.image-container{
+    margin: 5px;
 }
 .paragraf-container{
     display: flex;
@@ -42,6 +48,9 @@
     width: 800px;
     display: flex;
     
+}
+.footer{
+    margin: 5px;
 }
 
 
